@@ -44,9 +44,9 @@ int main() {
     printf("DC Offset Phase B: %.2f\n", dc_B);
     printf("DC Offset Phase C: %.2f\n", dc_C);
 
-    int clip_A = count_clipped(samples, count, 'A', 325.0);
-    int clip_B = count_clipped(samples, count, 'B', 325.0);
-    int clip_C = count_clipped(samples, count, 'C', 325.0);
+    int clip_A = count_clipped(samples, count, 'A', 324.9);
+    int clip_B = count_clipped(samples, count, 'B', 324.9);
+    int clip_C = count_clipped(samples, count, 'C', 324.9);
 
     printf("Clipped samples Phase A: %d\n", clip_A);
     printf("Clipped samples Phase B: %d\n", clip_B);
